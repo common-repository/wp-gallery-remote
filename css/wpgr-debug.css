@@ -1,0 +1,15 @@
+.wpgr_transparent {
+  filter:alpha(opacity=50);
+  opacity: 0.5;
+  -moz-opacity:0.5;
+}
+
+#wpgr_debug {
+  position:absolute;
+  top: 10px;
+  left:10px;
+  border: 1px solid black;
+  background: #eee;
+  text-align:left;
+  padding:5px;    
+}

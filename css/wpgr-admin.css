@@ -1,0 +1,19 @@
+.wpgr_album_options_table {
+	border-width:1px;
+	border-style:solid;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+
+.wpgr_album_options_table td {
+	text-align:left;
+	vertical-align:middle;
+}
+
+#wpgr_album_selection {
+	vertical-align:middle;
+}
+
+#wpgr_galleries {
+	width:200px;
+}

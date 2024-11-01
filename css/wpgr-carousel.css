@@ -1,0 +1,111 @@
+/**
+ * Copyright (c) 2006, Bill W. Scott
+ * All rights reserved.
+ *
+ * This work is licensed under the Creative Commons Attribution 2.5 License. To view a copy 
+ * of this license, visit http://creativecommons.org/licenses/by/2.5/ or send a letter to 
+ * Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+ *
+ * This work was created by Bill Scott (billwscott.com, looksgoodworkswell.com).
+ * 
+ * The only attribution I require is to keep this notice of copyright & license 
+ * in this original source file.
+ */
+
+/**
+ * Standard Configuration. It is advised that this section NOT be modified as the
+ * carousel.js expects the behavior outlined below.
+ **/
+.carousel-component { 
+	position:relative;
+	overflow:hidden;
+	visibility:visible; /* component turns it on when first item is rendered */
+	margin-bottom: 10px;
+    float: left;
+    width: 390px;
+    height: 100%;
+}
+				
+.carousel-component ul.carousel-list { 
+	width:10000000px;
+	position:relative;
+	z-index:1; 
+}
+
+.carousel-component .carousel-vertical li { 
+	float:none;
+	margin-bottom:0px;
+}
+
+.carousel-component ul.carousel-vertical { 
+	width:auto;
+}
+
+.carousel-component .carousel-clip-region { 
+	overflow:hidden;
+	margin:0px auto;
+	position:relative;
+}
+
+/**
+ * Safe to override. It is safe to override background, padding, margin, color,
+ * text alignment, fonts, etc. Define a separate CSS file and override your style
+ * preferences.
+ **/
+
+.carousel-component { 
+	background:#3F3F3F none repeat scroll 0%;
+	color:#618CBE;
+	padding:0px;
+}
+.carousel-component ul.carousel-list { 
+	margin:0px;
+	padding:0px 0px 0px 0px;
+}
+.carousel-component .carousel-list li { 
+	text-align:center;
+	margin:0px 0px 0px 0px;
+	font:10px verdana,arial,sans-serif;
+    border: 0px solid green;
+    padding:5px 2.5px 5px;
+    color: #3F3F3F;
+	float:left;
+	list-style:none;
+	overflow:hidden;
+}
+
+.carousel-component ul.carousel-list li:before {
+	content: "";
+}
+	
+.carousel-component .carousel-list li img { 
+    border:1px solid #999;
+    display:block;
+    margin:0px;
+	max-width:350px;
+	padding:0px;
+}
+
+/* BUTTONS */
+#prev-arrow-container, #next-arrow-container { 
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    vertical-align:middle;
+}
+
+.left-button-image { 
+    cursor:pointer;
+    border:0px solid #CCCCCC;
+	margin:0pt 0px;
+	max-width:100px;
+	padding:0px;
+}
+
+.right-button-image { 
+    cursor:pointer;
+    border:0px solid #CCCCCC;
+	margin:0pt 0px;
+	max-width:100px;
+	padding:0px;
+}
